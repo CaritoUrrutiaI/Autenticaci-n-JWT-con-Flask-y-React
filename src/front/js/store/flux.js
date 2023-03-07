@@ -49,7 +49,7 @@ const getState = ({
 				myHeaders.append("Content-Type", "application/json");
 				myHeaders.append("Access-Control-Allow-Credentials", "*");
                 
-				fetch("https://3001-4geeksacade-reactflaskh-t70y2t4phtf.ws-us88.gitpod.io/user",{
+				fetch("https://3001-4geeksacade-reactflaskh-kf494histeu.ws-us89b.gitpod.io/",{
                   method:"POST",
 				  headers:myHeaders,
 				  body:JSON.stringify({
@@ -97,7 +97,7 @@ const getState = ({
 					var myHeaders = new Headers();
 					myHeaders.append("Authorization", `Bearer ${token}`)
 					try{
-						await fetch("https://3001-4geeksacade-reactflaskh-t70y2t4phtf.ws-us88.gitpod.io/token",
+						await fetch("https://3001-4geeksacade-reactflaskh-kf494histeu.ws-us89b.gitpod.io/token",
 						{
 						method: "POST",
 						headers: myHeaders,
@@ -148,7 +148,7 @@ const getState = ({
 			  },
 			  SignUp:async (user)=>{
 				fetch(
-					"https://3001-4geeksacade-reactflaskh-t70y2t4phtf.ws-us88.gitpod.io/signup",
+					"https://3001-4geeksacade-reactflaskh-kf494histeu.ws-us89b.gitpod.io/signup",
 					{
 					method: "POST",
 					headers: {
